@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=J4ck Cleaner
+GenericName=System & Thermal Optimizer (J4ckENI Framework)
+Comment=AMD APU Thermal & RAM Optimization Suite for Linux
+Exec=j4ck-cleaner
+Icon=nocturne-guardian
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+Keywords=j4ck;cleaner;thermal;cpu;ram;optimizer;amd;apu;temperature;monitoring;
+StartupWMClass=J4ck Cleaner

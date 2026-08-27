@@ -1,0 +1,19 @@
+{
+    "app_title": "🛡️ J4CK CLEANER",
+    "app_subtitle": "Suite de Gestión Térmica y RAM para Linux (J4ckENI Framework)",
+    "status_optimized": "ACTIVO",
+    "status_alert": "ALERTA TÉRMICA",
+    "card_cpu_temp": "Temperatura CPU",
+    "card_gpu_temp": "GPU / VRAM",
+    "card_cpu_usage": "Carga de CPU",
+    "card_ram_usage": "Uso de RAM",
+    "card_swap_usage": "Swap Virtual",
+    "btn_clean": "🧹 LIMPIAR SISTEMA",
+    "btn_dev": "DEV",
+    "btn_gaming": "GAMING",
+    "btn_eco": "ECO",
+    "thermal_threshold": "Umbral Térmico Preventivo",
+    "tray_show": "🛡️ Mostrar J4ck Cleaner",
+    "tray_clean": "🧹 Limpiar Sistema",
+    "tray_quit": "❌ Salir"
+}

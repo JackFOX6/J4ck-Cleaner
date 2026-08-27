@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>J4ckENI Framework (J4ck Library)</vendor>
+  <vendor_url>https://github.com/j4ck/nocturne-guardian</vendor_url>
+
+  <action id="org.j4ckeniframework.nocturne-guardian.dropcaches">
+    <description>Liberación de memoria caché inactiva (drop_caches) para Nocturne Guardian</description>
+    <message>Nocturne Guardian requiere autorización para sincronizar y liberar caché inactiva de RAM.</message>
+    <defaults>
+      <allow_any>yes</allow_any>
+      <allow_inactive>yes</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/sync</annotate>
+  </action>
+
+</policyconfig>

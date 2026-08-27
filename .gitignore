@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.system_generated/
+logs/
+*.log
+.DS_Store
+build/
+dist/
+*.spec
+
+# Agent & Internal Rules / Session Decisions (Anti-Leak)
+.agents/
+.gemini/
+session-decisions.md
+.env
+.env.*
+!.env.example
